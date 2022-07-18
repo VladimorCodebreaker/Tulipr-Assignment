@@ -1,0 +1,40 @@
+@import './style.css';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: var(--font-regular);
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-image: url('../images/2.jpg');
+    background-size: cover;
+    aspect-ratio: 16 / 9;
+}
+
+italic {
+    font-family: var(--font-cursive);
+    text-transform: lowercase;
+}
+
+.section-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.section-hero .wrapper {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 14px 20px;
+}
+
+.section-hero .wrapper h2 {
+    padding-top: 10px;
+}

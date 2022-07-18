@@ -1,0 +1,233 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap');
+
+
+/* GENERAL Start */
+:root {
+    --color-beige: #edc7b7; 
+    --color-white: #fff;
+    --color-olive-orange: #e8a87c;
+    --color-vanish-gray: #777;
+    --color-dark-lemon: #D9B08C;
+    --color-purple-baseline: #94f0f1;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track-piece  {
+    background-color: var(--color-white);
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 30px;
+    background-color: var(--color-dark-lemon);
+}
+/* GENERAL End */
+
+/* HEADER Start */
+header nav {
+    font-family: 'Playfair Display', sans-serif; /* Alice */
+}
+
+header nav .navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+header nav .mt-sm {
+    margin-top: 3px;
+}
+
+header nav.bg-death {
+    background-color: var(--color-beige);
+    color: var(--colo-white) !important;
+}
+
+/* HEADER End */
+
+/* HERO Start */
+.section-hero .overlay {
+    color: var(--color-white);
+    position: absolute;
+    z-index: 12;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.section-hero .overlay h1 {
+    font-family: 'Playfair Display', sans-serif; /* Zilla Slab */
+    margin-top: 96px;;
+}
+
+.section-hero .overlay h3 {
+    font-family: 'Aleo', sans-serif; /* Alice */
+}
+/* HERO End */
+
+/* COUNTER Start */
+.section-counter {
+    color: var(--color-white);
+    background-color: var(--color-beige);
+}
+
+.section-counter .counter {
+    font-size: 72px;
+    font-family: 'Aleo', sans-serif; /* Alice */
+}
+
+.section-counter h4 {
+    font-family: 'Playfair Display', sans-serif; /* Zilla Slab */
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+
+.section-counter .counter-title {
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', sans-serif; /* Zilla Slab */
+    text-transform: uppercase;
+}
+/* COUNTER End */
+
+/* GROOM & BRIDE Start */
+.section-gb img {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.section-gb .caption {
+    text-transform: uppercase;
+    font-family: 'Playfair Display', sans-serif; /* Zilla Slab */
+    font-weight: 700;
+    color: var(--color-vanish-gray);
+}
+
+.section-gb h2 {
+    font-family: 'Aleo', sans-serif; /* Alice */
+    font-weight: 700;
+}
+
+.section-gb p {
+    color: #808e94;
+    line-height: 1.7;
+    font-family: 'Aleo', sans-serif; /* Alice */
+}
+/* GROOM & BRIDE End */
+
+/* WHEN & WHERE Start */
+.when-and-where {
+    color: var(--color-white);
+    background-color: var(--color-beige);
+    font-family: 'Aleo', sans-serif; /* Alice */
+}
+
+.when-and-where h2, h3 {
+    font-family: 'Playfair Display', sans-serif; /* Zilla Slab */
+}
+
+.when-and-where img {
+    border-radius: 8px;
+}
+/* WHEN & WHERE End */
+
+/* GALLERY Start */
+.gallery h2 {
+    color: var(--color-dark-lemon);
+    font-family: 'Playfair Display', sans-serif; /* Zilla Slab */
+}
+
+.gallery h2:hover, h2:focus {
+    -webkit-text-stroke: 2px var(--color-dark-lemon);
+    color: transparent;
+}
+
+.gallery .img-pos-upper-left,.img-pos-bottom-left, .img-pos-center-top {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.gallery .height-2x {
+    height: 616px;
+}
+
+.gallery .img-pos-upper-left {
+    background-image: url('../images/6.jpeg');
+}
+
+.gallery .img-pos-bottom-left {
+    background-image: url('../images/5.jpeg');
+}
+
+.gallery .img-pos-center-top {
+    background-image: url('../images/4.jpeg');
+}
+/* GALLERY End */
+
+/* RSVP Start */
+.rsvp .rsvp-header {
+    color: var(--color-dark-lemon);
+    font-family: 'Playfair Display', sans-serif; /* Zilla Slab */
+}
+
+.rsvp .rsvp-header:hover, .rsvp-header:focus {
+    -webkit-text-stroke: 2px var(--color-dark-lemon);
+    color: transparent;
+}
+
+.rsvp .rsvp-header, input, button {
+    font-family: 'Aleo', sans-serif; /* Alice */
+}
+/* RSVP End */
+
+/* Thank you Start */
+.thank-you {
+    background-color: var(--color-beige);
+    padding: 3rem 0;
+    font-family: 'Playfair Display', sans-serif; /* Zilla Slab */
+}
+
+.thank-you p {
+    font-size: 40px;
+}
+
+.thank-you span {
+    font-size: 1.7rem;
+}
+/* Thank you End */
+
+/* RESPONSIVE Start */
+@media screen and (max-width: 450px) {
+    .section-hero .overlay {
+        position: absolute;
+        top: 0;
+        transform: scale(0.6);
+    }
+}
+/* RESPONSIVE End */

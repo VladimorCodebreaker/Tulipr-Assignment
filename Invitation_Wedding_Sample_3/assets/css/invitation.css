@@ -1,0 +1,201 @@
+@import './theme.css';
+
+.btn-gradient-inviteme {
+    border-width: 0;
+    background-image: linear-gradient(107.56deg, #3d38f9 40.62%, #e485f4 100%);
+    background-position: right center;
+    color: #fff;
+    background-size: 200% auto;
+    transition: all .3s cubic-bezier(.25, .8, .25, 1)
+}
+
+.btn-gradient-inviteme:hover {
+    background-position: top left;
+}
+
+.btn-gradient-inviteme i {
+    color: #fff
+}
+
+.btn.btn-pink-inviteme {
+    background: #ff3592;
+    border-color: #ff3592;
+    color: #fff
+}
+
+.btn.btn-pink-inviteme:hover,
+.btn.btn-pink-inviteme:focus {
+    color: #fff
+}
+
+.border-gradient-inviteme {
+    border-image: linear-gradient(to right top, #f97baa, #ff5c99, #fd51a0, #ff438f, #ff71ab) 1/0 0 1 0;
+    border-image-slice: 1
+}
+
+.text-gradient-inviteme {
+    /*background: linear-gradient(to right, #f97baa, #ff5c99, #fd51a0, #ff438f, #ff71ab);*/
+    background-image: linear-gradient(107.56deg, #3d38f9 40.62%, #e485f4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.link-gradient-inviteme {
+    background: linear-gradient(to right, #f97baa, #ff5c99, #fd51a0, #ff438f, #ff71ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .3s cubic-bezier(.25, .8, .25, 1);
+    background-size: 200% auto
+}
+
+.link-gradient-inviteme:hover {
+    background-position: right center
+}
+
+.bg-gradient-inviteme {
+    background-image: linear-gradient(to right top, #f97baa, #ff5c99, #f97baa, #ff89b8, #ff71ab)
+}
+
+.bg-transparent-gradient-inviteme {
+    background-image: linear-gradient(to right top, rgba(239, 120, 165, .8), rgba(239, 120, 165, .8), rgba(226, 139, 170, .8), rgba(210, 135, 195, .8), rgba(239, 120, 165, .8))
+}
+
+.invitation_comparison td {
+    text-align: center
+}
+
+.invitation_comparison tr td:first-child {
+    text-align: left;
+    line-height: 20px
+}
+
+.invitation_comparison th {
+    text-align: center
+}
+
+@media (max-width: 991px) {
+    .invitation_comparison th {
+        font-size: 14px;
+        text-align: center
+    }
+
+    .invitation_comparison th:first-child {
+        width: 150px
+    }
+
+    .invitation_comparison th:last-child {
+        width: 80px
+    }
+
+    .invitation_comparison td {
+        padding: 10px 0
+    }
+
+    .inviteme-modele.background-position-center {
+        background-position: -45px 75px !important;
+        background-image: url(/themes/landing/images/dunga-mobil-2.png) !important
+    }
+
+    .inviteme-modele {}
+}
+
+.inviteme .process-step-style-02 .process-step-item:hover .process-step-icon {
+    color: #fff !important
+}
+
+.inviteme.interactive-banners-style-10 figure img {
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+    transition-duration: 1s
+}
+
+.inviteme.interactive-banners-style-10 figure:hover img { /* Scaling Animation */
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s
+}
+
+.inviteme-modele.background-position-center {
+    background-position: 0 48px
+}
+
+header .navbar .navbar-brand img,
+header.side-menu .logo img,
+header .sidebar-nav-menu .navbar-brand img {
+    max-height: 30px
+}
+
+.btn-gradient-inviteme:active,
+.btn-gradient-inviteme:focus {
+    color: #fff
+}
+
+.image-crisp {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor
+}
+
+@media (max-width: 991px) {
+    .navbar-show-modern-bg {
+        background: #000 !important;
+        background: linear-gradient(225deg, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 20%, 1) 64%, hsla(0, 0%, 27%, 1) 100%) !important;
+        background: -moz-linear-gradient(225deg, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 20%, 1) 64%, hsla(0, 0%, 27%, 1) 100%) !important;
+        background: -webkit-linear-gradient(225deg, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 20%, 1) 64%, hsla(0, 0%, 27%, 1) 100%) !important;
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#333333", GradientType=1) !important
+    }
+}
+
+
+/* Continuation of the base code */
+
+.margin-bottom {
+    margin-bottom: 1.9rem;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+::-webkit-scrollbar-button {
+    height: 4rem;
+}
+
+::-webkit-scrollbar-button {
+    height: 120px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: var(--background-gradient);
+    border-radius: .3125rem;
+}
+
+/* .nav-header-container {
+    height: 60px !important;
+} */
+
+.background-gradient {
+    background-image: linear-gradient(107.56deg, #3d38f9 40.62%, #e485f4 100%);
+}
+
+.background-gradient a, .background-gradient div, .background-gradient span {
+    color: var(--color-white);
+}
+
+/* .container-resize { Center left text 
+    position: relative;
+    left: 50%;
+} */
